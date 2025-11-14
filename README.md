@@ -26,7 +26,7 @@ It demonstrates skills in:
 
 ## Repository Structure
 ```bash
-
+aml_ibm_project/
 ├── data/
 │ ├── raw/
 │ └── processed/
