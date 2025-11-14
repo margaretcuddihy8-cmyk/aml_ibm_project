@@ -1,0 +1,25 @@
+# Core data science stack
+pandas
+numpy
+scikit-learn
+matplotlib
+
+# Notebook support
+jupyter
+ipykernel
+
+# Imbalanced learning methods 
+imbalanced-learn
+
+# Automated report generation with Word templates
+python-docx
+
+# For Power BI export helpers 
+pyarrow
+
+# Model evaluation and explainability 
+seaborn
+
+# xgboost
+xgboost
+lightgbm
