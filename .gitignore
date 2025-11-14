@@ -82,6 +82,35 @@ target/
 profile_default/
 ipython_config.py
 
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+
+# Temp files created by Power BI
+*.tmp
+*.bak
+*.rdl.data
+*.pbix.refresh
+
+# Keep actual PBIX file:
+# powerbi/AML_Dashboard.pbix
+
+# Auto-generated reports
+outputs/report/
+*.docx
+*.pdf
+
+# Keep only the template:
+# report_template/aml_report_template.docx
+
+# Figures
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.svg
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
