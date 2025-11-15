@@ -98,18 +98,21 @@ data/processed/
 # Keep actual PBIX file:
 # powerbi/AML_Dashboard.pbix
 
-# Auto-generated reports
-outputs/report/
-*.docx
-*.pdf
+# Exclude auto-generated files
+outputs/report/generated_*.docx
+outputs/report/generated_*.xlsx
 
-# Keep only the template:
-# report_template/aml_report_template.docx
+# Keep final outputs visible for review
+# outputs/report/final_report.docx
+# outputs/report/summary.xlsx
+
+# Keep the template:
+# report_template/aml_template.docx
 
 # Figures
-outputs/figures/*.png
-outputs/figures/*.jpg
-outputs/figures/*.svg
+outputs/figures/temp_*.png
+outputs/figures/temp_*.jpg
+outputs/figures/temp_*.svg
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
