@@ -162,7 +162,7 @@ Once your environment is set up and dependencies are installed:
 
 1. Train the model and generate metrics:
 ```bash
-python src/model_training.py
+python src/final_model.py
 ```
 
 2. Generate the Word report:
@@ -172,7 +172,7 @@ python src/auto_report.py
 
 The following output will be saved to the `outputs/report/` folder:
 
-- `final_report.docx`: A formatted Word report with key findings and visualisations
+- `aml_diagnostic_report.docx`: A formatted Word report with key findings and visualisations
 
 
 ## Data Limitations
